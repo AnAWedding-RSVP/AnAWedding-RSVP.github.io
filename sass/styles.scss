@@ -796,6 +796,18 @@ RSVP form
       width: 100%;
       font-size: 13px;
     }
+    .form-input-group-checkbox {
+      width: 100%;
+      height: 55px;
+      margin: 0 auto 10px;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      border: solid 1px $keyline-color;
+      display: grid;
+      grid-template-columns: 1em auto;
+      gap: 0.5em;
+    }
     .form-input-group {
       width: 100%;
       height: 55px;

@@ -219,7 +219,7 @@ $(document).ready(function () {
     },
     data: {
       // Event title
-      title: "Ram and Antara's Wedding",
+      title: "Austin And Alyssa's Wedding",
 
       // Event start date
       start: new Date("Nov 27, 2017 10:00"),
@@ -232,11 +232,10 @@ $(document).ready(function () {
       end: new Date("Nov 29, 2017 00:00"),
 
       // Event Address
-      address: "ITC Fortune Park Hotel, Kolkata",
+      address: "somewhere in the world",
 
       // Event Description
-      description:
-        "We can't wait to see you on our big day. For any queries or issues, please contact Mr. Amit Roy at +91 9876543210.",
+      description: "We can't wait to see you on our big day.",
     },
   });
 
@@ -267,7 +266,7 @@ $(document).ready(function () {
       );
     } else {
       $.post(
-        "https://script.google.com/macros/s/AKfycbz7bpVD4SYTUXEJZICDWeNB4qSEr9OFZtfaNMHXlZSO_R6vvIoskqtVi59Hhf8DHeaeMQ/exec",
+        "https://script.google.com/macros/s/AKfycbxvwLzJeaxXz60d2mrRN_J_1qU3K4UmH2W6I6YZasHDCuKSj7ApG7D5pnkKlrhXr2I5Lg/exec",
         data
       )
         .done(function (data) {

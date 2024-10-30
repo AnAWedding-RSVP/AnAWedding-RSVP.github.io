@@ -474,6 +474,32 @@
                                                                 required>
                             </div>
                         </div>
+                        <!-- <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-user"></i>
+                                <input type="radio" name="going" id="going" class="" placeholder="Can you make it?" required>
+                                <label for="going">I Can Make It!</label><br>
+                                <input type="radio" name="going" id="notgoing" class="" placeholder="Can you make it?" required>
+                                <label for="notgoing">I Can't Make it!</label><br>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-user"></i><input name="going" class="" list="going-options"
+                                                                 placeholder="Can You Make it?"
+                                                                 required>
+                            </div>
+                            <datalist id="going-options">
+                                <option value="I Can Make it"></option>
+                                <option value="I Can't Make it"></option>
+                              </datalist>
+                        </div>
+                        <!-- <label class="form-input-group-checkbox">
+                            <input type="checkbox" name="checkbox"/>
+                            Can you make it?
+                        </label> -->
                     </div>
                     <div class="row">
                         <div class="col-md-12" id="alert-wrapper"></div>
