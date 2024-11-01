@@ -266,7 +266,7 @@ $(document).ready(function () {
       );
     } else {
       $.post(
-        "https://script.google.com/macros/s/AKfycbxvwLzJeaxXz60d2mrRN_J_1qU3K4UmH2W6I6YZasHDCuKSj7ApG7D5pnkKlrhXr2I5Lg/exec",
+        "https://script.google.com/macros/s/AKfycbzUvYb3JNVSVP2rWHh89z6zpj9Fc3FtHcM-oUV8aKhLGJ_vgtwMPawG-R3TkeyKGNm63A/exec",
         data
       )
         .done(function (data) {
@@ -274,7 +274,7 @@ $(document).ready(function () {
           if (data.result === "error") {
             $("#alert-wrapper").html(alert_markup("danger", data.message));
           } else {
-            $("#alert-wrapper").html("");
+            $("#alert-wrapper").html(alert_markup("danger", data.message));
             $("#rsvp-modal").modal("show");
           }
         })
